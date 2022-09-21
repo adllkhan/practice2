@@ -1,3 +1,7 @@
+# The coordinates of two fields of the chessboard are given.
+# The cell coordinates are one character from a to h and one number from 1 to 8:
+# the column character and the row number. Are these cells on the chessboard the same color?
+
 def chessComparisons():
     coordinates = input()  # For example a 1 c 2
     if(0 < ord(coordinates.split()[0])-96 <= 8 and 0 < int(coordinates.split()[1]) <= 8 and 0 < ord(coordinates.split()[2])-96 <= 8 and 0 < int(coordinates.split()[3]) <= 8):
